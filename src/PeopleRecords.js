@@ -17,9 +17,9 @@ export default function PeopleRecord() {
   return (
     <>
       {
-        Object.keys(apiData)?.map((el,index)=>{
+        Object.keys(apiData)?.map((el)=>{
           <ul>
-            <li keys = 'index'> {el} : {apiData[el]}</li>
+            <li keys> {el} : {apiData[el]}</li>
           </ul>
         })
       }
